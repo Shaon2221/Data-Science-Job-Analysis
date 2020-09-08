@@ -1,2 +1,2 @@
 # Data-Science-Job-Analysis
-**Salary Prediction, Insight/Trend Extraction, webscraping and many more**
+**Salary Prediction, Insight/Trend Extraction, webscraping and many more..**
