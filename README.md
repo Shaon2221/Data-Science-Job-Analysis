@@ -9,7 +9,7 @@
 **Python Version:** 3.7  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle  
 **Scraper Github:** https://github.com/arapfaik/scraping-glassdoor-selenium  
-**Scraper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905 
+**Scraper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905 <br>
 **YouTube Project Walk-Through:** https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t  
 **Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
@@ -29,22 +29,22 @@ Tweaked the web scraper github repo (above) to scrape 1100 job postings from gla
 *Revenue 
 
 ## Data Cleaning
-After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:<br>
 
-*Parsed numeric data out of salary 
-*Made columns for employer provided salary and hourly wages 
-*Removed rows without salary 
-*Parsed rating out of company text 
-*Made a new column for company state 
-*Added a column for if the job was at the company’s headquarters 
-*Transformed founded date into age of company 
-*Made columns for if different skills were listed in the job description:
+*Parsed numeric data out of salary <br>
+*Made columns for employer provided salary and hourly wages <br>
+*Removed rows without salary <br>
+*Parsed rating out of company text <br>
+*Made a new column for company state <br>
+*Added a column for if the job was at the company’s headquarters <br>
+*Transformed founded date into age of company <br>
+*Made columns for if different skills were listed in the job description:<br>
     * Python  
     * R  
     * Excel  
     * AWS  
-    * Spark 
-*Column for simplified job title and Seniority 
+    * Spark <br>
+*Column for simplified job title and Seniority <br>
 *Column for description length 
 
 ## EDA
@@ -73,4 +73,4 @@ The Random Forest model far outperformed the other approaches on the test and va
 ***Ridge Regression**: MAE = 31.09
 
 ## Productionization 
-I'm planning to put this for production using Flask API
+I'm planning to put this for production using Flask API and Heroku
