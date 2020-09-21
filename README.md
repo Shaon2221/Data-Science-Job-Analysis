@@ -12,7 +12,7 @@
 **Scraper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905 <br>
 **YouTube Project Walk-Through:** https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t  
 **Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
-
+**Project Idea:** https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg
 
 ## Web Scraping
 Tweaked the web scraper github repo (above) to scrape 1100 job postings from glassdoor.com. With each job, we got the following: <br>
@@ -39,11 +39,11 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 *Added a column for if the job was at the company’s headquarters <br>
 *Transformed founded date into age of company <br>
 *Made columns for if different skills were listed in the job description:<br>
-    * Python  
-    * R  
-    * Excel  
-    * AWS  
-    * Spark <br>
+- Python  
+- R
+- Excel  
+- AWS  
+- Spark <br>
 *Column for simplified job title and Seniority <br>
 *Column for description length 
 
