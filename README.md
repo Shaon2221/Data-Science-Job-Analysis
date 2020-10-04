@@ -50,10 +50,10 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
 
-![alt text](https://raw.githubusercontent.com/Shaon2221/Data-Science-Job-Analysis/master/Images/word_cloud.png "skill word cloud")
-![alt text](https://raw.githubusercontent.com/Shaon2221/Data-Science-Job-Analysis/master/Images/job_by_title.png "job by title")
-![alt text](https://raw.githubusercontent.com/Shaon2221/Data-Science-Job-Analysis/master/Images/ds_by_comp_size.png "datascientists by company size")
-![alt text](https://raw.githubusercontent.com/Shaon2221/Data-Science-Job-Analysis/master/Images/corr.png "Correlations")
+![word cloud](https://raw.githubusercontent.com/Shaon2221/Data-Science-Job-Analysis/master/Images/word_cloud.png "skill word cloud")
+![job by title](https://raw.githubusercontent.com/Shaon2221/Data-Science-Job-Analysis/master/Images/job_by_title.png "job by title")
+![DS by company size](https://raw.githubusercontent.com/Shaon2221/Data-Science-Job-Analysis/master/Images/ds_by_comp_size.png "datascientists by company size")
+![Correlations](https://raw.githubusercontent.com/Shaon2221/Data-Science-Job-Analysis/master/Images/corr.png "Correlations")
 
 ## Model Building 
 
